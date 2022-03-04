@@ -1,0 +1,88 @@
+:root{
+    --main-background: rgb(54, 192, 66);
+    --white-background: rgb(233, 233, 229);
+    --submit-background: hsl(66, 74%, 52%);
+    --submithover-background: hsl(59, 83%, 72%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+    background: rgb(177, 248, 183);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 50px; 
+    width: 550px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 200px;    
+    background-color: var(--main-background);   
+    border-radius: 5px;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftside h3{
+    color: hsl(66, 87%, 49%);
+    border-bottom: 2px solid hsl(66, 87%, 49%);
+}
+
+
+.rightside{
+    flex: 1;
+    padding: 5px;
+    margin: 0;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.rightside h6{
+    color: hsl(66, 84%, 36%);
+}
+
+
+.rightside input{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    border: var(--main-background);
+    
+}
+
+.freetrial h6{
+    background-color: var(--white-background);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.form{
+    background-color: var(--white-background);
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+#submit{
+    background-color: var(--submit-background);
+    color: black;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: var(--submithover-background);
+}
+
+
